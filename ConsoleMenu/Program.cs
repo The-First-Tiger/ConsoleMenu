@@ -25,7 +25,7 @@ namespace ConsoleMenu
                            };
 
             menu.ShowMenu();
-
+            
             Console.WriteLine();
             Console.WriteLine("Your selection: " + menu.SelectedMenuEntry.ToString().Replace("_", " "));
             Console.WriteLine();
